@@ -19,6 +19,17 @@ conventions, and helps software developers to design CF-compliant
 data-processing applications and to build interfaces to other explicit
 data models.
 
+[preface]
+
+== Preface
+
+Revision history: ::
+This document will be updated to reflect agreed changes to the
+standard and to correct mistakes according to the rules of
+link:$$http://cfconventions.org/governance.html$$[CF governance].  See
+<<revhistory>> for the full revision history.
+
+
 [introduction]
 == Introduction
 
@@ -561,6 +572,12 @@ strings which identify such axes are well defined in that they must be
 standard names (e.g. time, longitude) or the special string
 **`area`**, indicating a combination of horizontal axes.
 [bibliography]
+
+[[revhistory, Revision History]]
+== Revision History
+
+.23 January 2019
+. Created initial draft based on link:$$https://doi.org/10.5194/gmd-10-4619-2017$$[CF data model GMD paper].
 
 == Bibliography
 
