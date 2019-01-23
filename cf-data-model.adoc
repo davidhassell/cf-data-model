@@ -503,8 +503,8 @@ cell measure constructs.
 
 === Field ancillary constructs
 
-The field ancillary construct (FIG ??) provides metadata which are
-distributed over the same sampling domain as the field itself. For
+The field ancillary construct (<<img-field>>) provides metadata which
+are distributed over the same sampling domain as the field itself. For
 example, if a data variable holds a variable retrieved from a
 satellite instrument, a related ancillary data variable might provide
 the uncertainty estimates for those retrievals (varying over the same
@@ -524,16 +524,16 @@ auxiliary coordinate construct or domain ancillary construct.
 
 === Cell method construct
 
-The cell method constructs (FIG ??) describe how the cell values
-represent the variation of the physical quantity within its cells--the
-structure of the data at a higher resolution. A single cell method
-construct consists of a set of axes (see below), a "method" property
-which describes how a value of the field construct's data array
-describes the variation of the quantity within a cell over those axes
-(e.g. a value might represent the cell area average), and properties
-serving to indicate more precisely how the method was applied
-(e.g. recording the spacing of the original data, or the fact the
-method was applied only over El Niño years).
+The cell method constructs (<<img-field>>) describe how the cell
+values represent the variation of the physical quantity within its
+cells--the structure of the data at a higher resolution. A single cell
+method construct consists of a set of axes (see below), a "method"
+property which describes how a value of the field construct's data
+array describes the variation of the quantity within a cell over those
+axes (e.g. a value might represent the cell area average), and
+properties serving to indicate more precisely how the method was
+applied (e.g. recording the spacing of the original data, or the fact
+the method was applied only over El Niño years).
 
 The field construct may contain an ordered sequence of cell method
 constructs describing multiple processes which have been applied to
